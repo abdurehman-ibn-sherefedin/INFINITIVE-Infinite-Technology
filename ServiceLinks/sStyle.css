@@ -4,6 +4,9 @@ body{
     padding: 0;
     
 }
+button{
+    cursor: pointer;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -78,6 +81,12 @@ nav ul li a:hover {
     color: black;
 }
 #pag{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #00c8c8;
+}
+#tak{
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;

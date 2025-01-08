@@ -3,7 +3,9 @@ a {
     color: #00b0b0;
     text-decoration: none;
 }
-
+button{
+    cursor: pointer;
+}
 * {
     margin: 0;
     padding: 0;
