@@ -9,7 +9,14 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
-
+br{}
+.circle{
+    width: 100;
+    height: 100;
+    background-color: black;
+    border: 10px solid gray;
+    border-radius: 50%;
+}
 body {
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -39,7 +46,15 @@ header .logo .infinity-symbol {
     color: #00c8c8;
     /* Electric Blue */
 }
+.navlogo{
+    width: 100px;
+    height: 80px;
+    padding: 0;
+}
+.footerlogo{
+    width: 100px;
 
+}
 header h1 {
     font-size: 2.2rem;
     font-weight: bold;
@@ -179,6 +194,7 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    display: flex;
 }
 
 footer .footer-container {

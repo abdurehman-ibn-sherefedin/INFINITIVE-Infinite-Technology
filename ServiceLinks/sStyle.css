@@ -1,0 +1,85 @@
+body{
+    background-color: #014b50;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo .infinity-symbol {
+    font-size: 2.5rem;
+    margin-right: 15px;
+    color: #00c8c8;
+    /* Electric Blue */
+}
+.navlogo{
+    width: 100px;
+    height: 80px;
+    padding: 0;
+}
+.footerlogo{
+    width: 100px;
+
+}
+header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00c8c8;
+}
+
+.card {
+    background-color: #0d1b2a;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 500px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: #00c8c8;
+    color: black;
+}
+#pag{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #00c8c8;
+}
